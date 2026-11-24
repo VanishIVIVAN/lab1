@@ -1,0 +1,9 @@
+PROJECT_NAME           = "Lab 1 - Trees and text documents"
+OUTPUT_DIRECTORY       = docs/api
+INPUT                  = include src README.md
+RECURSIVE              = YES
+FILE_PATTERNS          = *.hpp *.cpp *.md
+USE_MDFILE_AS_MAINPAGE = README.md
+EXTRACT_ALL            = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
